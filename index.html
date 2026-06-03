@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貸出備品紛失時の対応マニュアル</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f9f9f9; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .header { border-bottom: 3px solid #d32f2f; padding-bottom: 10px; margin-bottom: 20px; }
+        .meta { font-size: 0.9em; color: #666; justify-content: space-between; display: flex; }
+        h1 { font-size: 1.8rem; color: #111; margin: 5px 0; }
+        h2 { font-size: 1.3rem; color: #d32f2f; border-left: 5px solid #d32f2f; padding-left: 10px; margin-top: 30px; }
+        .flow-box { background: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 15px; }
+        .flow-title { font-weight: bold; margin-bottom: 5px; color: #555; }
+        .alert-text { color: #d32f2f; font-size: 0.9em; font-weight: bold; }
+        .qa-section { background: #eff6ff; padding: 15px; border-radius: 5px; margin-bottom: 15px; border-left: 5px solid #2563eb; }
+        .question { font-weight: bold; color: #1e40af; }
+        .answer { margin-top: 5px; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #999; border-top: 1px solid #ddd; padding-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="meta">
+            <span>社内規程 | コンプライアンス施策</span>
+            <span>2026年6月</span>
+        </div>
+        <h1>貸出備品紛失時の対応マニュアル</h1>
+    </div>
+
+    <h2>背景</h2>
+    <p>ここ数年において社内外で貸出備品や共用品の盗難被害が頻発しており、注意喚起および対策を求める声が多く寄せられたことから、コンプライアンス施策の一環としてGPSタグを用いた備品管理システムを試験的に導入するに至りました。</p>
+
+    <h2>対応フローの変更について</h2>
+    <div class="flow-box">
+        <div class="flow-title">【変更前】</div>
+        <div>備品紛失・盗難 ➔ 管理者に連絡 ➔ 捜索 ➔ 必要であれば警察に届け出</div>
+    </div>
+    <div class="flow-box" style="border: 1px solid #d32f2f;">
+        <div class="flow-title" style="color: #d32f2f;">【変更後】</div>
+        <div>備品紛失・盗難 ➔ 管理者に連絡 ➔ <span style="color:#d32f2f; font-weight:bold;">GPSタグを追跡</span> ➔ 備品の回収</div>
+    </div>
+    <p class="alert-text">※第三者による持ち去りが疑われる場合は管理者から警察に届け出を行います。</p>
+
+    <h2>GPS追跡画面と仕様</h2>
+    <p>GPSタグの現在地だけではなく、移動ルートと時間も記録されます。<br>
+    <small style="color: #666;">※個人情報保護の観点から記録された位置情報は返却処理のタイミングで消去されます。</small></p>
+
+    <h2>Q＆A</h2>
+    <div class="qa-section">
+        <div class="question">Q：GPSタグの充電はどの程度持ちますか？</div>
+        <div class="answer">➔ <strong>A：</strong>一カ月程度持ちますので貸出期間中に電池切れになる心配はありません（貸出期間最大２週間）。</div>
+    </div>
+    <div class="qa-section">
+        <div class="question">Q：GPSタグが水没して壊れる心配はありませんか？</div>
+        <div class="answer">➔ <strong>A：</strong>防水かつワイヤレス充電に対応しており、タグ本体が外部に露出しない構造のため、水没による故障のリスクは少ないです。</div>
+    </div>
+
+    <div class="footer">
+        CONFIDENTIAL | 社外秘
+    </div>
+</div>
+
+</body>
+</html>
